@@ -1,0 +1,173 @@
+html {
+
+  padding: 0;
+  margin: 0;
+}
+
+.input {
+
+  color: white;
+  background-color: transparent;
+  display: flex;
+  justify-content: right;
+  align-items: none;
+  list-style-type: none;
+  border: transparent;
+
+}
+
+body {
+  list-style-type: none;
+  background-color: transparent;
+  background-image: url(monas.jpg);
+  background-size: 1400px 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  height: 78vh;
+
+
+}
+
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(monas.jpg);
+  background-repeat: none;
+  /* background-color: rgba(0,0,0, 0,3); */
+  /* background-image: linear-gradient(to right, rgba(254, 4, 4, 0.3), rgba(254, 247, 247, 0.3)); */
+  color: white;
+  font-size: 3em;
+  position: relative;
+  min-height: 100vh;
+
+}
+
+/* .video-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+} */
+
+
+.navigation-bar {
+  border: 3px solid;
+  border-radius: 80px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-h1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.navbar-h2 {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.content-h1 {
+  display: flex;
+  border: none;
+}
+
+.content-name {
+  border: 1px solid;
+}
+
+.content-since {
+  border: 1px solid;
+
+}
+
+.content-home {
+  border: 1px solid;
+}
+
+.content-hobby {
+  border: 1px solid
+}
+
+.content-end {
+  display: flex;
+  justify-content: right;
+}
+
+
+
+
+.ul-navbar {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.li-navbar:hover {
+  background-color: transparent;
+  transition: 5s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+
+.container-content {
+
+  background-color: transparent;
+}
+
+.content {
+  background-color: none;
+}
+
+.ul-content-f {
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-content {
+  /* color: white; */
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+
+  
+  
+  font-size: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: none;
+
+}
+
